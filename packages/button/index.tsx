@@ -1,3 +1,4 @@
-import { Button } from "./Button";
+import './style/index'
+import { Button } from "./src/Button"
 
 export default Button

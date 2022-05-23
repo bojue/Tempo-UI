@@ -5,4 +5,5 @@ declare namespace TDesign {
     export type Button_Size = Td_MENU.SIZE
     export type Button_Type = Td_MENU.BUTTON_TYPE
     export type Button_Shape = Td_MENU.BUTTON_SHAPE
+    export type Button_Variant_Type = Td_MENU.BUTTON_VARIANT_TYPE
 }

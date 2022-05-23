@@ -1,0 +1,19 @@
+components/**/*.js
+components/**/*.jsx
+!components/*/__tests__/**/*.js
+!components/*/demo/*
+!.*.js
+~*
+# Docs templates
+
+typings
+es/**/*
+lib/**/*
+node_modules
+_site
+dist
+coverage
+**/*.d.ts
+# Scripts
+scripts/previewEditor/**/*
+jest-stare

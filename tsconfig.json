@@ -15,6 +15,10 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
+    "plugins": ["typescript-plugin-css-modules"],
+    "paths": {
+     "@/*": ["./src/*"],
+    },
   },
   "include": ["example", "src", "types"],
   "references": [{ "path": "tsconfig.node.json" }]
